@@ -77,17 +77,17 @@ public class SnakesAndLadders {
 	}
 
 	public static void main(String[] args) {
-		snakePositions.put(99, 54);
-		snakePositions.put(70, 55);
-		snakePositions.put(52, 42);
-		snakePositions.put(25, 2);
-		snakePositions.put(95, 72);
+		snakePositions.put(96, 40);
+		snakePositions.put(71, 5);
+		snakePositions.put(40, 35);
+		snakePositions.put(25, 12);
+		snakePositions.put(95, 65);
 
-		ladderPositions.put(6, 25);
-		ladderPositions.put(11, 40);
-		ladderPositions.put(60, 85);
-		ladderPositions.put(46, 90);
-		ladderPositions.put(17, 69);
+		ladderPositions.put(7, 30);
+		ladderPositions.put(13, 40);
+		ladderPositions.put(62, 90);
+		ladderPositions.put(49, 99);
+		ladderPositions.put(20, 35);
 		startGame();
 	}
 
