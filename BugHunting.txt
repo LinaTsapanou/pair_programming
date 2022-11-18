@@ -7,3 +7,21 @@ line 5:    || bounds[j+1] != other.bounds[j+1]) {
 Problem 2
 ----------------
 line 4:    return points.size()==1 ? points.get(0) : null;
+
+
+
+Problem 7
+----------------
+The if should be inside try, and the createNewFile inside the if
+
+
+
+Problem 10
+----------------
+The type of parameter of the switch statement should match the type of parameter in the cases
+
+
+
+Extra problem
+----------------
+line 13:   processedData == that.processedData &&
