@@ -37,9 +37,7 @@ public class BingoCard {
 
 	}
 
-	/**
-	 * A method that prints out the card
-	 */
+
 	public void printCard(){
 
 		String title[] = {"  B  ","  I  ","  N  ","  G  ","  O  "}; 
@@ -57,11 +55,7 @@ public class BingoCard {
 		}
 	}
 
-	/**
-	 * A method that checks to see if the number chosen matches a value on the
-	 * card. If there's a match, place a zero on the value of the location.
-	 * @param input 
-	 */
+
 	public int checkMatch(int input){ 
 		int cardPos=0; 
 		for(int row = 0; row <= 4; row++){ 
@@ -76,12 +70,7 @@ public class BingoCard {
 		return -1;
 	}
 
-	/**
-	 * A method that checks to see if a bingo exists. There are 12 total conditions
-	 * for BINGO condition. 5 conditions for all horizontal == 0. 5 conditions for
-	 * all vertical == 0, and 2 conditions for all diagonal == 0.
-	 * @return True or false. If true, in the main function, this wins the game.
-	 */
+
 	public boolean checkBingo(){
 		if(card[0][0]==0&&card[0][1]==0&&card[0][2]==0&&card[0][3]==0&&card[0][4]==0){
 			return true;
