@@ -9,19 +9,6 @@ public class SnakesAndLadders {
 	final static int TARGET = 100;
 	static Map<Integer, Integer> snakePositions = new HashMap<>();
 	static Map<Integer, Integer> ladderPositions = new HashMap<>();
-	{
-		snakePositions.put(96, 12);
-		snakePositions.put(70, 34);
-		snakePositions.put(25, 50);
-		snakePositions.put(30, 60);
-		snakePositions.put(85, 32);
-
-		ladderPositions.put(8, 25);
-		ladderPositions.put(50, 20);
-		ladderPositions.put(30, 30);
-		ladderPositions.put(25, 40);
-		ladderPositions.put(50, 70);
-	}
 
 	public static int rollDice() {
 		int n = 0;
@@ -61,7 +48,7 @@ public class SnakesAndLadders {
 		String keyPressed;
 		int diceValue = 0;
 		do {
-			System.out.println(currentPlayer == -1 ? "\n Player 1's turn" : "\n Player 2's turn");
+			System.out.println(currentPlayer == -1 ? "\nPlayer 1's turn" : "\nPlayer 2's turn");
 			System.out.println("Press 'r' to roll Dice");
 			keyPressed = scan.next();
 			diceValue = rollDice();
@@ -90,6 +77,17 @@ public class SnakesAndLadders {
 	}
 
 	public static void main(String[] args) {
+		snakePositions.put(99, 54);
+		snakePositions.put(70, 55);
+		snakePositions.put(52, 42);
+		snakePositions.put(25, 2);
+		snakePositions.put(95, 72);
+
+		ladderPositions.put(6, 25);
+		ladderPositions.put(11, 40);
+		ladderPositions.put(60, 85);
+		ladderPositions.put(46, 90);
+		ladderPositions.put(17, 69);
 		startGame();
 	}
 
