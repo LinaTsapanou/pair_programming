@@ -1,0 +1,9 @@
+Problem 1
+----------------
+line 5:    || bounds[j+1] != other.bounds[j+1]) {
+
+
+
+Problem 2
+----------------
+line 4:    return points.size()==1 ? points.get(0) : null;
